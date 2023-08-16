@@ -5,7 +5,16 @@
           if sym == sub_sym:
               counter += 1
       print (sym, counter)
-srtcounter('adcnra')'''
+srtcounter('adcnra')
+def srtcounter(s):
+    for sym in set(s) :
+      counter = 0
+      for sub_sym in s:
+          if sym == sub_sym:
+              counter += 1
+      print (sym, counter)
+srtcounter('adcnra')
+'''
 
 def srtcounter(s):
     syms_counter = {}
